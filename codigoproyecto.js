@@ -135,7 +135,7 @@
             else if (resultado == 21) {nombre_resultado="Sol sostenido/La bemol"}
             else if (resultado == 22) {nombre_resultado="La"}
             else if (resultado == 23) {nombre_resultado="La sostenido/Si bemol"}
-        document.write("La "+ nombre_intervalo + " de " + nombre_nota + " es <strong>" + nombre_resultado + "</strong>");
+        document.write ("<p class=botoneco> La "+ nombre_intervalo + " de " + nombre_nota + " es </p> <p class=botoneco><strong>" + nombre_resultado + "</strong></p>");
        
         function tonalidadAleatoria ()
         {
@@ -194,8 +194,8 @@
                 else if (resultadoIntervalico == 7) {nombre_resultadoIntervalico="Séptimas"}
                 resultado_Intervalico.innerHTML += nombre_resultadoIntervalico + "</br>";
         }
-
-        var resultado_Modal = document.getElementById ("resultadoModal")
+        
+        var resultado_Modal = document.getElementById ("resultadoModal");
         var resultado = document.getElementById("resultado");
         const sonidos = document.getElementById("sonidos");
         var resultado_Intervalico = document.getElementById ("resultadoIntervalico");
