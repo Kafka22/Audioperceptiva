@@ -141,28 +141,28 @@
         {
         var resultadoTonal;
         resultadoTonal = Math.floor (Math.random() * (23 - 2 + 1)) + 2;
-        if (resultadoTonal ==2){nombre_resultado="Do sostenido/Re bemol"; sonidos.innerHTML += '<audio src= "droneDosostenido.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 3) {nombre_resultadoTonal="Re"; sonidos.innerHTML += '<audio src= "droneRe.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 4) {nombre_resultadoTonal="Re sostenido/Mi bemol"; sonidos.innerHTML += '<audio src= "droneResostenido.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 5) {nombre_resultadoTonal="Mi/Fa bemol"; sonidos.innerHTML += '<audio src= "droneMi.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 6) {nombre_resultadoTonal="Mi sostenido/ Fa"; sonidos.innerHTML += '<audio src= "droneFa.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 7) {nombre_resultadoTonal="Fa sostenido/Sol bemol"; sonidos.innerHTML += '<audio src= "droneFasostenido.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 8) {nombre_resultadoTonal="Sol"; sonidos.innerHTML += '<audio src= "droneSol.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 9) {nombre_resultadoTonal="Sol sostenido/La bemol"; sonidos.innerHTML += '<audio src= "droneSolsostenido.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 10) {nombre_resultadoTonal="La"; sonidos.innerHTML += '<audio src= "droneLa.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 11) {nombre_resultadoTonal="La sostenido/Si bemol"; sonidos.innerHTML += '<audio src= "droneLasostenido.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 12) {nombre_resultadoTonal="Si/ Do bemol"; sonidos.innerHTML += '<audio src= "droneSi.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 13) {nombre_resultadoTonal="Do"; sonidos.innerHTML += '<audio src= "droneDo.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 14) {nombre_resultadoTonal="Do sostenido/Re bemol"; sonidos.innerHTML += '<audio src= "droneDosostenido.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 15) {nombre_resultadoTonal="Re"; sonidos.innerHTML += '<audio src= "droneRe.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 16) {nombre_resultadoTonal="Re sostenido/Mi bemol"; sonidos.innerHTML += '<audio src= "droneResostenido.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 17) {nombre_resultadoTonal="Mi/Fa bemol"; sonidos.innerHTML += '<audio src= "droneMi.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 18) {nombre_resultadoTonal="Mi sostenido/ Fa"; sonidos.innerHTML += '<audio src= "droneFa.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 19) {nombre_resultadoTonal="Fa sostenido/Sol bemol"; sonidos.innerHTML += '<audio src= "droneFasostenido.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 20) {nombre_resultadoTonal="Sol"; sonidos.innerHTML += '<audio src= "droneSol.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 21) {nombre_resultadoTonal="Sol sostenido/La bemol"; sonidos.innerHTML += '<audio src= "droneSolsostenido.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 22) {nombre_resultadoTonal="La"; sonidos.innerHTML += '<audio src= "droneLa.mp3" autoplay></audio>'}
-            else if (resultadoTonal == 23) {nombre_resultadoTonal="La sostenido/Si bemol"; sonidos.innerHTML += '<audio src= "droneLasostenido.mp3" autoplay></audio>'}
+        if (resultadoTonal ==2){nombre_resultado="Do sostenido/Re bemol"; sonidos.innerHTML += '<audio src= "./sonidos/droneDosostenido.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 3) {nombre_resultadoTonal="Re"; sonidos.innerHTML += '<audio src= "./sonidos/droneRe.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 4) {nombre_resultadoTonal="Re sostenido/Mi bemol"; sonidos.innerHTML += '<audio src= "./sonidos/droneResostenido.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 5) {nombre_resultadoTonal="Mi/Fa bemol"; sonidos.innerHTML += '<audio src= "./sonidos/droneMi.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 6) {nombre_resultadoTonal="Mi sostenido/ Fa"; sonidos.innerHTML += '<audio src= "./sonidos/droneFa.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 7) {nombre_resultadoTonal="Fa sostenido/Sol bemol"; sonidos.innerHTML += '<audio src= "./sonidos/droneFasostenido.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 8) {nombre_resultadoTonal="Sol"; sonidos.innerHTML += '<audio src= "./sonidos/droneSol.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 9) {nombre_resultadoTonal="Sol sostenido/La bemol"; sonidos.innerHTML += '<audio src= "./sonidos/droneSolsostenido.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 10) {nombre_resultadoTonal="La"; sonidos.innerHTML += '<audio src= "./sonidos/droneLa.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 11) {nombre_resultadoTonal="La sostenido/Si bemol"; sonidos.innerHTML += '<audio src= "./sonidos/droneLasostenido.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 12) {nombre_resultadoTonal="Si/ Do bemol"; sonidos.innerHTML += '<audio src= "./sonidos/droneSi.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 13) {nombre_resultadoTonal="Do"; sonidos.innerHTML += '<audio src= "./sonidos/droneDo.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 14) {nombre_resultadoTonal="Do sostenido/Re bemol"; sonidos.innerHTML += '<audio src= "./sonidos/droneDosostenido.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 15) {nombre_resultadoTonal="Re"; sonidos.innerHTML += '<audio src= "./sonidos/droneRe.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 16) {nombre_resultadoTonal="Re sostenido/Mi bemol"; sonidos.innerHTML += '<audio src= "./sonidos/droneResostenido.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 17) {nombre_resultadoTonal="Mi/Fa bemol"; sonidos.innerHTML += '<audio src= "./sonidos/droneMi.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 18) {nombre_resultadoTonal="Mi sostenido/ Fa"; sonidos.innerHTML += '<audio src= "./sonidos/droneFa.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 19) {nombre_resultadoTonal="Fa sostenido/Sol bemol"; sonidos.innerHTML += '<audio src= "./sonidos/droneFasostenido.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 20) {nombre_resultadoTonal="Sol"; sonidos.innerHTML += '<audio src= "./sonidos/droneSol.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 21) {nombre_resultadoTonal="Sol sostenido/La bemol"; sonidos.innerHTML += '<audio src= "./sonidos/droneSolsostenido.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 22) {nombre_resultadoTonal="La"; sonidos.innerHTML += '<audio src= "./sonidos/droneLa.mp3" autoplay></audio>'}
+            else if (resultadoTonal == 23) {nombre_resultadoTonal="La sostenido/Si bemol"; sonidos.innerHTML += '<audio src= "./sonidos/droneLasostenido.mp3" autoplay></audio>'}
             resultado.innerHTML += nombre_resultadoTonal + "</br>";
         
         }
